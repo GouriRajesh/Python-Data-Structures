@@ -205,6 +205,7 @@ print('Length: ',ll.length)
 
 # Get element at index 1
 print('Element at index: ',ll.get(1).value)
+
 # Set new value of node at index 1
 print('Set new element at index: ',ll.set_value(1,25))
 ll.print_list()
