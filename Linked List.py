@@ -182,35 +182,43 @@ ll.append(10)
 ll.print_list()
 # Print length of LL
 print('Length: ',ll.length)
+
 # Pop from end of LL
 print('Popped: ',ll.pop())
 ll.print_list()
 print('Length: ',ll.length)
+
 # Add to start of LL
 ll.prepend(2)
 ll.print_list()
 print('Length: ',ll.length)
+
 # Remove from start of LL
 print('Popped First: ',ll.pop_first())
 ll.print_list()
 print('Length: ',ll.length)
+
 # Append to end of LL
 ll.append(20)
 ll.print_list()
 print('Length: ',ll.length)
+
 # Get element at index 1
 print('Element at index: ',ll.get(1).value)
 # Set new value of node at index 1
 print('Set new element at index: ',ll.set_value(1,25))
 ll.print_list()
+
 # Insert new node at index 1
 print('New node at index: ',ll.insert(1,23))
 ll.print_list()
 print('Length: ',ll.length)
+
 # Remove node at index 1
 print('Removed: ', ll.remove(1))
 ll.print_list()
 print('Length: ',ll.length)
+
 # Reverse the LL
 ll.reverse()
 ll.print_list()
